@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title></title>
+</head>
+
+<body>
+  <section class="board">
+    <div class="board__columns">
+      <div class="column column--todo">
+        <div class="column__header">
+          <h2 class="column__title">TODO</h2>
+          <button class="column__more">
+            <img src="./img/more_icon.svg" alt="">
+          </button>
+        </div>
+        <div class="column__cards">
+          <div class="card">
+            Welcome to Trello!
+            <button class="card__btn-delete"><img src="./img/delete_icon.svg" alt=""></button>
+          </div>
+        </div>
+        <div class="column__footer">
+          <button class="column__add">+ Add another card</button>
+          <form class="column__add-form hidden">
+            <textarea class="column__add-textarea" placeholder="Enter a title for this card..."></textarea>
+            <div class="column__add-btns">
+              <button class="column__add-btn">Add card</button>
+              <button class="column__add-close"><img src="./img/delete_icon.svg" alt=""></button>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <div class="column column--progress">
+        <div class="column__header">
+          <h2 class="column__title">IN PROGRESS</h2>
+          <button class="column__more">
+            <img src="./img/more_icon.svg" alt="">
+          </button>
+        </div>
+        <div class="column__cards">
+          <div class="card">
+            Invite your team to this board using the Add Members button
+            <button class="card__btn-delete"><img src="./img/delete_icon.svg" alt=""></button>
+          </div>
+        </div>
+        <div class="column__footer">
+          <button class="column__add">+ Add another card</button>
+          <form class="column__add-form hidden">
+            <textarea class="column__add-textarea" placeholder="Enter a title for this card..."></textarea>
+            <div class="column__add-btns">
+              <button class="column__add-btn">Add card</button>
+              <button class="column__add-close"><img src="./img/delete_icon.svg" alt=""></button>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <div class="column column--done">
+        <div class="column__header">
+          <h2 class="column__title">DONE</h2>
+          <button class="column__more">
+            <img src="./img/more_icon.svg" alt="">
+          </button>
+        </div>
+        <div class="column__cards">
+          <div class="card">
+            To learn more tricks, check out the guide.
+            <button class="card__btn-delete"><img src="./img/delete_icon.svg" alt=""></button>
+          </div>
+        </div>
+        <div class="column__footer">
+          <button class="column__add">+ Add another card</button>
+          <form class="column__add-form hidden">
+            <textarea class="column__add-textarea" placeholder="Enter a title for this card..."></textarea>
+            <div class="column__add-btns">
+              <button class="column__add-btn">Add card</button>
+              <button class="column__add-close"><img src="./img/delete_icon.svg" alt=""></button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+
+</html>
